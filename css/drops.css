@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
 
 body{margin: 0;background: rgba(30, 30, 30, 1.0)}
+.hero-image {
+  background-image: url("img/dropsandbits.jpg");
+  background-color: rgba(255, 255, 255, 1.0);
+  /*height: 500px; */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
 a{text-decoration:none}
 div{-webkit-text-size-adjust:none}
 
@@ -15,31 +23,30 @@ div{-webkit-text-size-adjust:none}
 
 .drops{display:block;position:relative;width:100%;height:100vh;;overflow:hidden;margin:0;background-color:rgba(30,30,30,1.0)}
 .drops .ink{display:block;height:100%;position:relative; margin:auto;}
-
 .drops .avatar{background-color:rgba(255,255,255,0.0);position:absolute;margin:0;}
 
-.drops .minibio{background-color:rgba(255,255,255,0.0);height:auto;position:absolute;margin:0;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;color:rgba(200,200,200,1.0);text-align:center;line-height:24.0px;}
+.drops .minibio{height:auto;position:absolute;margin:0;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;color:rgba(200,200,200,1.0);text-align:center;line-height:24.0px;}
 .drops .minibio span{font-weight:600;font-style:normal;text-align:center;}
 .drops .minibio a{color:rgba(255,255,255,1.0);text-align: center;text-decoration: none;}
 .drops .minibio a:hover{color:rgba(170,154,125,1.0);text-align:center;}
 .drops .minibio .button{background-color:rgba(255,255,255,1.0);border: none;width: 220px;left: 50px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top:12px;padding-bottom:12px;margin-top:16px;margin-bottom:0px;text-align:center;text-decoration:none;color:rgba(0,0,0,1.0);display:inline-block;cursor: pointer;border-radius: 24px;}
 .drops .minibio .button:hover{background-color:rgba(170,154,125,1.0);color:rgba(0,0,0,1.0);text-decoration:none}
-.drops .minibio .secondary-button{background-color:rgba(0,0,0,0.0);border: 2px solid rgba(180,180,180,1.0);width: 220px; color:rgba(180,180,180,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
-.drops .minibio .secondary-button:hover{background-color:rgba(0,0,0,0.0);border: 2px solid rgba(170,154,125,1.0);width: 220px; color:rgba(170,154,125,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
+.drops .minibio .secondary-button{border: 2px solid rgba(180,180,180,1.0);width: 220px; color:rgba(180,180,180,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
+.drops .minibio .secondary-button:hover{border: 2px solid rgba(170,154,125,1.0);width: 220px; color:rgba(170,154,125,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
 
 .drops .iconrow{position:absolute;margin:0px;left:0px}
 
 .drops .iconrow .ico-instagram{top:0px;position:absolute;margin:0;}
 .drops .iconrow .ico-instagram .bitmap{top:0;position:relative;margin:0;left:0}
 .drops .iconrow .ico-instagram .bitmap:hover{filter:sepia(100%);-webkit-filter:sepia(100%);}
-.drops .iconrow .ico-behance{background-color:rgba(255,255,255,0.0);top:0px;position:absolute;margin:0;}
-.drops .iconrow .ico-behance .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
+.drops .iconrow .ico-behance{top:0px;position:absolute;margin:0;}
+.drops .iconrow .ico-behance .bitmap{top:0;position:relative;margin:0;left:0}
 .drops .iconrow .ico-behance .bitmap:hover{filter:sepia(100%);-webkit-filter:sepia(100%);}
-.drops .iconrow .ico-linkedin{background-color:rgba(255,255,255,0.0);top:0;position:absolute;margin:0;}
-.drops .iconrow .ico-linkedin .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
+.drops .iconrow .ico-linkedin{top:0;position:absolute;margin:0;}
+.drops .iconrow .ico-linkedin .bitmap{top:0;position:relative;margin:0;left:0}
 .drops .iconrow .ico-linkedin .bitmap:hover{filter:sepia(100%);-webkit-filter:sepia(100%);}
-.drops .iconrow .ico-portfolio{background-color:rgba(255,255,255,0.0);top:0;position:absolute;margin:0;}
-.drops .iconrow .ico-portfolio .bitmap{background-color:rgba(255,255,255,0.0);top:0;position:relative;margin:0;left:0}
+.drops .iconrow .ico-portfolio{top:0;position:absolute;margin:0;}
+.drops .iconrow .ico-portfolio .bitmap{top:0;position:relative;margin:0;left:0}
 .drops .iconrow .ico-portfolio .bitmap:hover{filter:sepia(100%);-webkit-filter:sepia(100%);}
 
 
