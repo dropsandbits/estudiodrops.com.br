@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400');
+
+body{margin: 0;background: rgba(30, 30, 30, 1.0)}
+.hero-image {
+  background-image: url("img/drops.png");
+  background-color: rgba(255, 255, 255, 1.0);
+  /*height: 500px; */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+a{text-decoration:none}
+div{-webkit-text-size-adjust:none}
+
+.anima-animate-appear{opacity:0;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 normal forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 normal forwards;animation:anima-reveal .3s ease-in-out 1 normal forwards}
+.anima-animate-disappear{opacity:1;display:block;-webkit-animation:anima-reveal .3s ease-in-out 1 reverse forwards;-moz-animation:anima-reveal .3s ease-in 1 normal forwards;-o-animation:anima-reveal .3s ease-in-out 1 reverse forwards;animation:anima-reveal .3s ease-in-out 1 reverse forwards}
+.anima-animate-nodelay{-webkit-animation-delay:0;-moz-animation-delay:0;-o-animation-delay:0;animation-delay:0}
+
+@-webkit-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+@-moz-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+@-o-keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+@keyframes anima-reveal{0%{opacity:0}100%{opacity:1}}
+
+.drops{display:block;position:relative;width:100%;height:100vh;;overflow:hidden;margin:0;background-color:rgba(30,30,30,1.0)}
+.drops .ink{display:block;height:100%;position:relative; margin:auto;}
+.drops .avatar{background-color:rgba(255,255,255,0.0);position:absolute;margin:0;}
+
+.drops .minibio{height:auto;position:absolute;margin:0;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:400;font-style:normal;color:rgba(200,200,200,1.0);text-align:center;line-height:24.0px;}
+.drops .minibio span{font-weight:600;font-style:normal;text-align:center;}
+.drops .minibio a{color:rgba(255,255,255,1.0);text-align: center;text-decoration: none;}
+.drops .minibio a:hover{color:rgba(,1.0);text-align:center;}
+.drops .minibio .button{background-color:rgba(255,255,255,1.0);border: none;width: 220px;left: 50px;font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top:12px;padding-bottom:12px;margin-top:16px;margin-bottom:0px;text-align:center;text-decoration:none;color:rgba(0,0,0,1.0);display:inline-block;cursor: pointer;border-radius: 24px;}
+.drops .minibio .button:hover{background-color:rgba(188,226,222,1.0);color:rgba(0,0,0,1.0);text-decoration:none}
+.drops .minibio .secondary-button{border: 2px solid rgba(180,180,180,1.0);width: 220px; color:rgba(180,180,180,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
+.drops .minibio .secondary-button:hover{border: 2px solid rgba(188,226,222,1.0);width: 220px; color:rgba(188,226,222,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:16.0px;padding-top: 12px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
+.drops .minibio .simplelink{border: 0px solid rgba(180,180,180,1.0);width: 220px; color:rgba(180,180,180,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:14.0px;padding-top: 0px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
+.drops .minibio .simplelink:hover{border: 0px solid rgba(188,226,222,1.0);width: 220px; color:rgba(188,226,222,1.0);font-family:'Open Sans',Helvetica,Arial,serif;font-weight:600;font-style:normal;font-size:14.0px;padding-top: 0px;padding-bottom: 12px;margin-top: 12px;display: inline-block;margin-bottom: 16px;text-align: center;text-decoration: none;border-radius: 24px;}
+
+.drops .iconrow{position:absolute;margin:0px;left:0px}
+
+.drops .iconrow .ico-instagram{top:0px;position:absolute;margin:0;}
+.drops .iconrow .ico-instagram .bitmap{top:0;position:relative;margin:0;left:0;filter: grayscale(100%);-webkit-filter: grayscale(100%);}
+.drops .iconrow .ico-instagram .bitmap:hover{filter: grayscale(0%);-webkit-filter: grayscale(0%);}
+.drops .iconrow .ico-behance{top:0px;position:absolute;margin:0;}
+.drops .iconrow .ico-behance .bitmap{top:0;position:relative;margin:0;left:0;filter: grayscale(100%);-webkit-filter: grayscale(100%);}
+.drops .iconrow .ico-behance .bitmap:hover{filter: grayscale(0%);-webkit-filter: grayscale(0%);}
+.drops .iconrow .ico-linkedin{top:0;position:absolute;margin:0;}
+.drops .iconrow .ico-linkedin .bitmap{top:0;position:relative;margin:0;left:0;filter: grayscale(100%);-webkit-filter: grayscale(100%);}
+.drops .iconrow .ico-linkedin .bitmap:hover{filter: grayscale(0%);-webkit-filter: grayscale(0%);}
+.drops .iconrow .ico-portfolio{top:0;position:absolute;margin:0;}
+.drops .iconrow .ico-portfolio .bitmap{top:0;position:relative;margin:0;left:0;filter: grayscale(100%);-webkit-filter: grayscale(100%);}
+.drops .iconrow .ico-portfolio .bitmap:hover{filter: grayscale(0%);-webkit-filter: grayscale(0%);}
+
+
+@media screen and (max-width:639px){
+
+  .drops{min-width:320px;min-height:580px}
+  .drops .ink{width: 320px}
+  .drops .avatar{top:16px;height:160px;width:160px;left:80px}
+  .drops .minibio{top:198px;width:240px;left:40px;font-size:16.0px}
+  .drops .minibio span{font-size:18.0px}
+  .drops .iconrow{top:600px;height:32px;width:208px}
+  .drops .iconrow .ico-instagram{height:32px;width:32px;left:56px}
+  .drops .iconrow .ico-instagram .bitmap{height:32px;width:32px}
+  .drops .iconrow .ico-behance{height:32px;width:32px;left:112px}
+  .drops .iconrow .ico-behance .bitmap{height:32px;width:32px}
+  .drops .iconrow .ico-linkedin{height:32px;width:32px;left:168px}
+  .drops .iconrow .ico-linkedin .bitmap{height:32px;width:32px}
+  .drops .iconrow .ico-portfolio{height:32px;width:32px;left:224px}
+  .drops .iconrow .ico-portfolio .bitmap{height:32px;width:32px}
+
+}
+@media screen and (min-width:640px) and (max-width:1439px){
+
+  .drops{min-width:664px;min-height:720px}
+  .drops .ink{width:640px}
+  .drops .avatar{top:40px;height:230px;width:230px;left:235px}
+  .drops .minibio{top:320px;width:240px;left:230px;font-size:16.0px}
+  .drops .minibio span{font-size:18.0px}
+  .drops .iconrow{top:720px;height:32px;width:312px}
+  .drops .iconrow .ico-instagram{height:32px;width:32px;left:246px}
+  .drops .iconrow .ico-instagram .bitmap{height:32px;width:32px}
+  .drops .iconrow .ico-behance{height:32px;width:32px;left:302px}
+  .drops .iconrow .ico-behance .bitmap{height:32px;width:32px}
+  .drops .iconrow .ico-linkedin{height:32px;width:32px;left:358px}
+  .drops .iconrow .ico-linkedin .bitmap{height:32px;width:32px}
+  .drops .iconrow .ico-portfolio{height:32px;width:32px;left:414px}
+  .drops .iconrow .ico-portfolio .bitmap{height:32px;width:32px}
+
+}
+@media screen and (min-width:1440px){
+
+  .drops{min-width:1440px;min-height:720px}
+  .drops .ink{width:1440px}
+  .drops .avatar{top:56px;height:256px;width:256px;left:592px}
+  .drops .minibio{top:370px;width:440px;left:500px;font-size:18.0px}
+  .drops .minibio span{font-size:24.0px}
+  .drops .iconrow{top:740px;height:48px;width:528px}
+  .drops .iconrow .ico-instagram{height:48px;width:48px;left:571px}
+  .drops .iconrow .ico-instagram .bitmap{height:48px;width:48px}
+  .drops .iconrow .ico-behance{height:48px;width:48px;left:651px}
+  .drops .iconrow .ico-behance .bitmap{height:48px;width:48px}
+  .drops .iconrow .ico-linkedin{height:48px;width:48px;left:731px}
+  .drops .iconrow .ico-linkedin .bitmap{height:48px;width:48px}
+  .drops .iconrow .ico-portfolio{height:48px;width:48px;left:810px}
+  .drops .iconrow .ico-portfolio .bitmap{height:48px;width:48px}
+
+}
